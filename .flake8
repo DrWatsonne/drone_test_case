@@ -1,0 +1,18 @@
+[flake8]
+exclude = .git,__pycache__,poc_scripts,migrations,manage.py,settings
+
+ignore = \
+    A002, \
+    W503, \
+    D100, \
+    D101, \
+    D102, \
+    D104, \
+    D105, \
+    D106, \
+    D107,
+application-import-names = exrest, tests
+import-order-style = pep8
+
+per-file-ignores =
+    tests/*:E501
